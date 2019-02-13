@@ -8,8 +8,10 @@ int main()
 {
    int m[10][10];
    int j;
+   int i;
+   
        int **ptr=generate();
-        for(int i=1;i<11;i++)
+        for( i=1;i<11;i++)
     {
         for(int j=1;j<5;j++)
         {
