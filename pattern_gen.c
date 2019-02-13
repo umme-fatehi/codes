@@ -6,7 +6,8 @@ void star(int **);
 
 int main()
 {
-   int m[10][10],j;
+   int m[10][10];
+   int j;
        int **ptr=generate();
         for(int i=1;i<11;i++)
     {
