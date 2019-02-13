@@ -2,7 +2,8 @@
 #include<stdlib.h>
 int main()
 {
-    int n,a[50];
+    int n;
+    int a[50];
     //int a[50]={0,1,1,0,1,1};
     printf("enter n\n");
     scanf("%d",&n);
