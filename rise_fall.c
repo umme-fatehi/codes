@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main()
 {
-    int n;
+    int n,i;
     int a[50];
     //int a[50]={0,1,1,0,1,1};
     printf("enter n\n");
@@ -13,7 +13,7 @@ int main()
         scanf("%d",&a[i]);
     }
 printf("voltage level=%d\n",a[0]);
-for(int i=0;i<n-1;i++)
+for(i=0;i<n-1;i++)
 {
     if (a[i]<a[i+1])
     {
